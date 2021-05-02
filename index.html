@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="clock-weather-box">
+            <div class="clock-js">
+                <h1></h1>
+                <h2>00:00</h2>
+            </div>
+            <form class="form-js form">
+                <input type="text" placeholder="Who are you?" />
+            </form>
+            <h4 class="greeting-js greeting"></h4>
+            <div class="weather-js"></div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="todo-box">
+            <form class="todo-form">
+                <input type="text" placeholder="What to do ?" />
+            </form>
+            <div class="todo-list">
+                <div class="pending-div">
+                    <h3>해야 할 일</h3>
+                    <ul class="pending_list"></ul>
+                </div>
+                <div class="finish-div">
+                    <h3>끝낸 일</h3>
+                    <ul class="finish_list"></ul>
+                </div>
+            </div>
+        </div>
+    </main>  
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="background.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
