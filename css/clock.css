@@ -1,0 +1,11 @@
+.clock-weather-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.clock-js > h2 {
+    display: flex;
+    justify-content: center;
+}

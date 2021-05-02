@@ -1,0 +1,78 @@
+@import "clock.css";
+@import "todo.css";
+
+* { 
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 28px;
+}
+
+button {
+	background-color: #11ffee00;
+	border: none;
+	margin: 0px 10px;
+
+}
+
+button:hover {
+	box-shadow: 1px #cacfce;
+	cursor: pointer;
+	border-style: outset;
+}
+
+.form,
+.greeting {
+	display: none;
+}
+
+.showing {
+	display: block;
+}
+
+.bgImage {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0.4;
+}
+
+input {
+	background-color: #11ffee00;
+	border: none;
+	text-align: center;
+}
+
+input::placeholder {
+	text-align: center;
+}
+
+input:focus {
+	outline: none;
+}
+
+@keyframes bounce {
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+	30%, 50%, 70% {
+		transform: translate3d(-3px, 0, 0);
+	}
+	40%, 60% {
+		transform: translate3d(3px, 0, 0);
+	}
+}
+
+.cookie {
+	margin-top: 22px;
+}
+
+.cookie:hover {
+	box-shadow: none;
+	border-style: none;
+	animation: bounce 1.5s ease infinite alternate;
+}
